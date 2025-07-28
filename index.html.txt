@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartPrep - Your Roadmap to a Top IT Job</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #4F46E5, #8B5CF6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-lg fixed top-0 left-0 right-0 z-50 border-b border-gray-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gray-900">
+                <a href="#">Smart<span class="text-indigo-600">Prep</span></a>
+            </div>
+            <nav class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-600 hover:text-indigo-600 transition-colors">Features</a>
+                <a href="#roadmaps" class="text-gray-600 hover:text-indigo-600 transition-colors">Roadmaps</a>
+                <a href="#tpo" class="text-gray-600 hover:text-indigo-600 transition-colors">For TPOs</a>
+                <a href="#pricing" class="text-gray-600 hover:text-indigo-600 transition-colors">Pricing</a>
+            </nav>
+            <div class="flex items-center space-x-4">
+                 <a href="#" class="text-gray-600 hover:text-indigo-600 font-medium">Log In</a>
+                <a href="#" class="bg-indigo-600 text-white px-5 py-2 rounded-lg shadow-md hover:bg-indigo-700 transition-all">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="pt-32 pb-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900 leading-tight">
+                    Stop Guessing, Start <span class="gradient-text">Preparing</span>.
+                </h1>
+                <p class="mt-6 text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                    SmartPrep provides curated roadmaps and smart progress tracking to help B.Tech, M.Tech, BCA & MCA graduates land their dream job in the IT industry.
+                </p>
+                <div class="mt-10">
+                    <a href="#roadmaps" class="bg-indigo-600 text-white px-8 py-4 rounded-lg text-lg font-semibold shadow-lg hover:bg-indigo-700 transition-all transform hover:scale-105">
+                        Explore Job Roadmaps
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">The <span class="text-indigo-600">Smart</span> Way to Prepare</h2>
+                    <p class="mt-4 text-lg text-gray-600">Everything you need to go from graduate to top tech professional.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200 feature-card transition-all duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 bg-indigo-100 rounded-full mb-6">
+                            <svg class="h-8 w-8 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V7.618a1 1 0 01.553-.894L9 4m0 16v-8m0 8h12l-5.447-2.724A1 1 0 0015 16.382V7.618a1 1 0 00-.553-.894L9 4m12 12V7.618a1 1 0 00-.553-.894L15 4m6 12h-6"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Role-Specific Roadmaps</h3>
+                        <p class="text-gray-600">Expert-designed paths covering everything from DSA, OOPS, and core subjects to advanced topics for roles like SDE and ML Engineer.</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200 feature-card transition-all duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 bg-indigo-100 rounded-full mb-6">
+                            <svg class="h-8 w-8 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Topic-wise Tracking</h3>
+                        <p class="text-gray-600">Track your progress in DSA, Aptitude, Core Subjects, and even Behavioural Questions to identify and eliminate weak spots before your interview.</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="bg-white p-8 rounded-xl shadow-sm border border-gray-200 feature-card transition-all duration-300">
+                        <div class="flex items-center justify-center h-16 w-16 bg-indigo-100 rounded-full mb-6">
+                            <svg class="h-8 w-8 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 16v-2m8-8h2m-18 0h2m14.364 5.636l1.414 1.414M5.636 5.636l1.414 1.414m12.728 0l-1.414 1.414M6.343 17.657l-1.414 1.414M16 12a4 4 0 11-8 0 4 4 0 018 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Personalized Guidance</h3>
+                        <p class="text-gray-600">Get recommendations tailored to your target role, whether it's Full Stack, Data Analyst, or Tech Support, based on your skills and timeline.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Roadmaps Section -->
+        <section id="roadmaps" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Role-Based Roadmaps for IT Placements</h2>
+                    <p class="mt-4 text-lg text-gray-600">Choose your target role and get a step-by-step plan to success.</p>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Roadmap Card: SDE -->
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 flex flex-col">
+                        <h4 class="text-xl font-bold text-indigo-700">Core Engineering</h4>
+                        <h3 class="text-2xl font-bold text-gray-900 mt-2">Software Dev. Engineer (SDE)</h3>
+                        <p class="text-gray-600 mt-3 flex-grow">Master DSA, OOPS, Core Subjects (OS, DBMS, CN), and System Design to crack top tech companies.</p>
+                        <a href="#" class="mt-6 text-indigo-600 font-semibold hover:underline">View Roadmap &rarr;</a>
+                    </div>
+                    <!-- Roadmap Card: Full Stack -->
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 flex flex-col">
+                        <h4 class="text-xl font-bold text-teal-700">Web Development</h4>
+                        <h3 class="text-2xl font-bold text-gray-900 mt-2">Full Stack Developer</h3>
+                        <p class="text-gray-600 mt-3 flex-grow">Build end-to-end expertise. From frontend frameworks like React to backend with Node.js and databases.</p>
+                        <a href="#" class="mt-6 text-teal-600 font-semibold hover:underline">View Roadmap &rarr;</a>
+                    </div>
+                     <!-- Roadmap Card: Data Analyst -->
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 flex flex-col">
+                        <h4 class="text-xl font-bold text-sky-700">Analytics</h4>
+                        <h3 class="text-2xl font-bold text-gray-900 mt-2">Data Analyst</h3>
+                        <p class="text-gray-600 mt-3 flex-grow">Dive into SQL, Python, statistics, and visualization tools to turn data into actionable insights.</p>
+                        <a href="#" class="mt-6 text-sky-600 font-semibold hover:underline">View Roadmap &rarr;</a>
+                    </div>
+                    <!-- Roadmap Card: ML Engineer -->
+                    <div class="bg-gray-50 border border-gray-200 rounded-xl p-6 flex flex-col">
+                        <h4 class="text-xl font-bold text-rose-700">Artificial Intelligence</h4>
+                        <h3 class="text-2xl font-bold text-gray-900 mt-2">ML Engineer</h3>
+                        <p class="text-gray-600 mt-3 flex-grow">Explore Python, ML algorithms, deep learning frameworks, and MLOps to build intelligent systems.</p>
+                        <a href="#" class="mt-6 text-rose-600 font-semibold hover:underline">View Roadmap &rarr;</a>
+                    </div>
+                </div>
+                <div class="text-center mt-12">
+                    <a href="#" class="bg-gray-200 text-gray-800 px-8 py-3 rounded-lg font-semibold hover:bg-gray-300 transition-all">
+                        And more, including Tech Support & QA
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- TPO Section -->
+        <section id="tpo" class="py-20 bg-indigo-50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                     <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Empower Your Students for Placement Success</h2>
+                    <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">Partner with SmartPrep to bridge the gap between curriculum and the skills required by the IT industry.</p>
+                </div>
+                <div class="max-w-4xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-12 w-12 flex items-center justify-center bg-white rounded-full shadow-md">
+                                <svg class="h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-gray-900">Industry-Aligned Training</h4>
+                                <p class="text-gray-600 mt-1">Provide students with roadmaps for today's most in-demand IT roles like SDE, Data Analyst, and Full Stack Developer.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                             <div class="flex-shrink-0 h-12 w-12 flex items-center justify-center bg-white rounded-full shadow-md">
+                                <svg class="h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/></svg>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-gray-900">Boost Placement Rates</h4>
+                                <p class="text-gray-600 mt-1">Equip students with the exact technical and behavioral skills top companies look for.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                             <div class="flex-shrink-0 h-12 w-12 flex items-center justify-center bg-white rounded-full shadow-md">
+                                <svg class="h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                            </div>
+                            <div class="ml-4">
+                                <h4 class="text-xl font-bold text-gray-900">Actionable Insights</h4>
+                                <p class="text-gray-600 mt-1">Our institutional dashboard helps you track student progress and identify campus-wide skill gaps.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-white p-8 rounded-xl shadow-lg text-center mt-8 md:mt-0">
+                        <h3 class="text-2xl font-bold text-gray-900">Ready to improve your campus placement outcomes?</h3>
+                        <p class="mt-4 text-gray-600">Let's work together to create a generation of industry-ready professionals.</p>
+                        <a href="#" class="mt-8 inline-block bg-indigo-600 text-white px-8 py-3 rounded-lg text-lg font-semibold shadow-md hover:bg-indigo-700 transition-all">
+                            Contact Us for a Partnership
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Simple Pricing for Everyone</h2>
+                    <p class="mt-4 text-lg text-gray-600">Start for free, and upgrade when you're ready for advanced preparation.</p>
+                </div>
+                <div class="flex flex-col lg:flex-row justify-center items-center gap-8">
+                    <!-- Free Plan -->
+                    <div class="w-full lg:w-1/3 bg-white p-8 rounded-xl shadow-md border border-gray-200">
+                        <h3 class="text-2xl font-bold text-gray-900">Student</h3>
+                        <p class="mt-2 text-gray-600">For getting started</p>
+                        <p class="mt-6 text-5xl font-extrabold text-gray-900">₹0<span class="text-xl font-medium text-gray-500">/mo</span></p>
+                        <ul class="mt-8 space-y-4 text-gray-600">
+                            <li class="flex items-center"><span class="text-green-500 mr-3">&#10003;</span>Access to 1 full roadmap</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-3">&#10003;</span>Basic progress tracking</li>
+                            <li class="flex items-center"><span class="text-green-500 mr-3">&#10003;</span>Community support</li>
+                        </ul>
+                        <a href="#" class="block w-full text-center bg-gray-100 text-indigo-600 font-semibold py-3 rounded-lg mt-8 hover:bg-gray-200 transition-colors">Start Learning</a>
+                    </div>
+                    <!-- Pro Plan -->
+                    <div class="w-full lg:w-1/3 bg-indigo-600 text-white p-8 rounded-xl shadow-2xl transform lg:scale-110">
+                         <p class="text-center font-semibold bg-indigo-800 rounded-full px-4 py-1 text-sm -mt-12 mb-6 w-fit mx-auto">Most Popular</p>
+                        <h3 class="text-2xl font-bold">Pro</h3>
+                        <p class="mt-2 text-indigo-200">For serious placement prep</p>
+                        <p class="mt-6 text-5xl font-extrabold">₹299<span class="text-xl font-medium text-indigo-200">/mo</span></p>
+                        <ul class="mt-8 space-y-4 text-indigo-100">
+                            <li class="flex items-center"><span class="text-indigo-300 mr-3">&#10003;</span>Unlimited roadmaps</li>
+                            <li class="flex items-center"><span class="text-indigo-300 mr-3">&#10003;</span>Smart progress tracking</li>
+                            <li class="flex items-center"><span class="text-indigo-300 mr-3">&#10003;</span>Aptitude & Behavioural Q-Bank</li>
+                            <li class="flex items-center"><span class="text-indigo-300 mr-3">&#10003;</span>Personalized guidance</li>
+                        </ul>
+                        <a href="#" class="block w-full text-center bg-white text-indigo-600 font-semibold py-3 rounded-lg mt-8 hover:bg-gray-100 transition-colors">Go Pro</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Section -->
+        <section id="faq" class="py-20 bg-white">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">Frequently Asked Questions</h2>
+                </div>
+                <div class="space-y-6">
+                    <!-- FAQ Item -->
+                    <details class="bg-gray-50 p-6 rounded-lg group">
+                        <summary class="font-semibold text-lg cursor-pointer flex justify-between items-center">
+                            Who is SmartPrep for?
+                            <span class="transform transition-transform duration-300 group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="mt-4 text-gray-600">
+                            SmartPrep is specifically built for B.Tech, M.Tech, BCA, and MCA students and graduates who want a clear, structured plan to land a job in the IT industry, whether their goal is to become an SDE, Data Analyst, or another tech professional.
+                        </p>
+                    </details>
+                    <!-- FAQ Item -->
+                    <details class="bg-gray-50 p-6 rounded-lg group">
+                        <summary class="font-semibold text-lg cursor-pointer flex justify-between items-center">
+                            How are the roadmaps created?
+                            <span class="transform transition-transform duration-300 group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="mt-4 text-gray-600">
+                            Our roadmaps are curated by senior engineers and hiring managers from top tech companies. They have a deep understanding of what it takes to succeed in interviews and on the job. We focus on a logical progression of topics and link to the highest-quality resources.
+                        </p>
+                    </details>
+                    <!-- FAQ Item -->
+                    <details class="bg-gray-50 p-6 rounded-lg group">
+                        <summary class="font-semibold text-lg cursor-pointer flex justify-between items-center">
+                            Is this only for freshers?
+                             <span class="transform transition-transform duration-300 group-open:rotate-45">+</span>
+                        </summary>
+                        <p class="mt-4 text-gray-600">
+                            While our core roadmaps are excellent for freshers, the principles and advanced topics are also highly relevant for experienced professionals looking to switch roles or upskill to a different domain within the IT industry.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold">Smart<span class="text-indigo-400">Prep</span></h3>
+                    <p class="mt-4 text-gray-400">Your personalized path to a top IT job.</p>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg text-gray-200">Product</h4>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-white">Features</a></li>
+                        <li><a href="#roadmaps" class="text-gray-400 hover:text-white">Roadmaps</a></li>
+                        <li><a href="#pricing" class="text-gray-400 hover:text-white">Pricing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-lg text-gray-200">Company</h4>
+                    <ul class="mt-4 space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">About Us</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Careers</a></li>
+                    </ul>
+                </div>
+                 <div>
+                    <h4 class="font-semibold text-lg text-gray-200">Follow Us</h4>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="https://linkedin.com/in/deepakp-tech" target="_blank" rel="noopener noreferrer" class="text-gray-400 hover:text-white">
+                           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-700 pt-8 text-center text-gray-400">
+                <p>&copy; 2025 SmartPrep. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
